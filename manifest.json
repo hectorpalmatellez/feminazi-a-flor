@@ -1,13 +1,13 @@
 {
   "manifest_version": 2,
 
-  "name": "Feminazi to 🌹",
-  "description": "Replace feminazi with 🌹",
-  "version": "1.0",
+  "name": "Feminazi a flor",
+  "description": "Reemplaza 'feminazi' con 'flor'",
+  "version": "1.1",
 
   "browser_action": {
     "default_icon": "icon.png",
-    "default_title": "Feminazi to 🌹"
+    "default_title": "Feminazi a flor"
   },
   "content_scripts": [
     {
