@@ -1,4 +1,5 @@
 (function() {
+  // All this was taken from https://github.com/panicsteve/cloud-to-butt/
   walk(document.body);
 
   function walk(node) {
@@ -27,10 +28,11 @@
   }
 
   function handleText(textNode) {
-      var v = textNode.nodeValue;
+    var v = textNode.nodeValue;
 
-      v = v.replace(/\bfeminazi\b/gi, "UNA FLOR");
+    v = v.replace(/\bfeminazi\b/gi, "flor 🌹");
+    v = v.replace(/\bfeminazis\b/gi, "flores 🌹🌹");
 
-      textNode.nodeValue = v;
+    textNode.nodeValue = v;
   }
 })();
